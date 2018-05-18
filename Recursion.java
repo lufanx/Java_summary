@@ -9,6 +9,9 @@ public class Recursion {
 	}
 
 
+	/**
+	 * Use recursion realize Fab.
+	 */
 	public static int fab(int count) {
 		if (count < 0) {
 			System.out.println("invalid args");
@@ -30,6 +33,7 @@ public class Recursion {
 			int f1 = 1;
 			int f2 = 1;
 			int f = 0;
+			
 			for (int i = 0; i < count-2; i++) {
 				f = f1 + f2;
 				f1 = f2;
